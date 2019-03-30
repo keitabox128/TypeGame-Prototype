@@ -5,4 +5,4 @@ $username = 'root';
 $password = '';
 
 // PDO のインスタンスを生成して、MySQLサーバに接続
-$database = new PDO('mysql:host=localhost;port=3306;dbname=typegame;charset=UTF8;', $username, $password);
+$database = new PDO('mysql:host=localhost;dbname=typegame;charset=UTF8;', $username, $password);
